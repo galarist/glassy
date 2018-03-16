@@ -1,0 +1,171 @@
+body {
+	background-image: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    margin: 0;
+}
+
+b {
+    font-size: 15pt;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+#container {
+	max-width: 300px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+ /* Bordered form */
+form {
+    background-color: rgba(246, 238, 238, 0.295);
+    -webkit-box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(255, 246, 246, 0.795);
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #25282D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.5;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer, .home {
+    text-align: center;
+    margin: 24px 0 -8px 0;
+    max-width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    opacity: 0.9;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    -webkit-box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.75);
+}
+
+#sticky {
+    position: fixed;
+    width: 100%;    
+    margin-top: -120px;
+}
+
+header {
+    text-align: left;
+    width: 100%;
+    height: 60px;
+    margin-top: -30px !important;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin: 0 auto;
+    opacity: 0.9;
+    color: blanchedalmond;
+}
+
+
+nav {
+    text-align: left;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    opacity: 0.9;
+    border-top: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.411);
+    -webkit-box-shadow: 0px 14px 13px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 14px 13px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 14px 13px -4px rgba(0,0,0,0.75);
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+li a {
+    background-color: rgba(255, 255, 255, 0.150);
+    padding: 10px;
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+header h2{
+    margin-left: 10px;
+    padding-top: 12px;
+    font-size: 20pt;
+    color: #fff;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 50%;
+    margin-top: -20px;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+#box{
+    padding: 15px;
+    background-color: rgba(210, 105, 30, 0.582);
+    width: 400px;
+    min-height: 100%;
+    padding-bottom: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+    clear: both;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+} 
